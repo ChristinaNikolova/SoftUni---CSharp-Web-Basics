@@ -1,4 +1,6 @@
-﻿using SUS.HTTP;
+﻿using SharedTrip.Services.Trips;
+using SharedTrip.Services.Users;
+using SUS.HTTP;
 using SUS.MvcFramework;
 using System.Collections.Generic;
 
@@ -14,6 +16,8 @@ namespace SharedTrip
 
         public void ConfigureServices(IServiceCollection serviceCollection)
         {
+            serviceCollection.Add<IUsersService, UsersService>();
+            serviceCollection.Add<ITripsService, TripsService>();
         }
     }
 }
