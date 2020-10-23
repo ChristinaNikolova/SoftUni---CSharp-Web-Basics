@@ -7,7 +7,8 @@ namespace SUS.MvcFramework
         public T Id { get; set; }
 
         [Required]
-        [MaxLength(10)]
+        [MaxLength(20)]
+        //[MaxLength(10)]
         public string Username { get; set; }
 
         [Required]
