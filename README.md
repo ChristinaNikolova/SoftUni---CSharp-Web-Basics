@@ -6,4 +6,4 @@
 3. Web Server - State Management
 4. MVC Introduction
 5. MVC Advanced - View Engine
-6  MVC Advanced - IOC AND DATA BINDING
+6.  MVC Advanced - IOC AND DATA BINDING
